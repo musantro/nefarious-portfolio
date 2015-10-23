@@ -15,7 +15,7 @@ body {
 .jumbotron b {
   font-weight: 800;
 }
-.jumbotron .container{
+.jumbotron .container-fluid{
   position: relative;
   top: 100px;
 }
@@ -25,8 +25,8 @@ body {
   text-shadow: 1px 1px 5px #000;
 }
 
-#home > div > img{
-  border: 3px solid #EEE;
+img.img-circle {
+  border: 1px solid #444;
 }
 
 .jumbotron {
@@ -49,20 +49,17 @@ body {
   text-shadow: 1px 1px 2px #444;
 }
 
-#about {
- /* background-color: #777;*/
-}
 
-
-
-body .jumbotron button{
+.btn{
   background-color: transparent;
   color: white;
-  border: 1px solid white;
   border-radius: 0px;
   transition: all 0.3s ease 0s;
 }
 
+.jumbotron button{
+  border: 1px solid #EEE;
+}
 
 button:hover{
   opacity:0.95;
