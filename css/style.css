@@ -15,7 +15,7 @@ body {
 .jumbotron b {
   font-weight: 800;
 }
-.jumbotron .container-fluid{
+.jumbotron .container{
   position: relative;
   top: 100px;
 }
@@ -51,16 +51,26 @@ img.img-circle {
 
 
 .btn{
-  background-color: transparent;
-  color: white;
   border-radius: 0px;
   transition: all 0.3s ease 0s;
 }
 
-.jumbotron button{
+.jumbotron  button{
+  background-color: transparent;
+  color: white;
   border: 1px solid #EEE;
+}
+
+#social-net button{
+  background-color:transparent;
+  color: black;
+  border: 1px solid black;
 }
 
 button:hover{
   opacity:0.95;
 }
+
+.marketing {
+  padding-top: 80px;
+} 
