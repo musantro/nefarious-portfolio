@@ -45,26 +45,24 @@ img.img-circle {
   margin:0px 10px 0px 10px;
 } 
 
-#home .row a button{
-  text-shadow: 1px 1px 2px #444;
-}
-
 
 .btn{
   border-radius: 0px;
   transition: all 0.3s ease 0s;
+  text-shadow: 1px 1px 2px #444;
 }
 
-.jumbotron  button{
+
+.btn-black{
+  background-color: transparent;
+  color: black; 
+  border: 1px solid #333;
+}
+
+.btn-white{
   background-color: transparent;
   color: white;
   border: 1px solid #EEE;
-}
-
-#social-net button{
-  background-color:transparent;
-  color: black;
-  border: 1px solid black;
 }
 
 button:hover{
@@ -73,4 +71,14 @@ button:hover{
 
 .marketing {
   padding-top: 80px;
+  min-height: 400px;
 } 
+
+.img-responsive{
+  width: 100%;
+  height: auto;
+}
+
+#contact > div > div{
+  padding: 10px 5px 10px 5px;
+}
