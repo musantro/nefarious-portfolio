@@ -37,6 +37,7 @@ img.img-circle {
   background-attachment: fixed;
   font-family: 'Open Sans', Arial;
   min-height: 500px;
+  margin-bottom: 0px;
 }
 
 #navbar {
@@ -74,6 +75,8 @@ button:hover{
   padding-top: 80px;
   min-height: 700px;
   padding-bottom: 80px;
+  position: relative;
+  top: 50%;
 } 
 
 .img-responsive{
@@ -104,3 +107,5 @@ button:hover{
   background-attachment: fixed;
   color: white;
 }
+
+

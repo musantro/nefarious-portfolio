@@ -4,7 +4,7 @@ $(function () {
 
 $("#target3").addClass("animated fadeOut");
 
-$("nav ul li a[href^='#']").on('click', function(e) {
+$("nav a[href^='#']").on('click', function(e) {
 
    // prevent default anchor click behavior
    e.preventDefault();
