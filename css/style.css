@@ -36,7 +36,7 @@ img.img-circle {
   background-position: center;
   background-attachment: fixed;
   font-family: 'Open Sans', Arial;
-  min-height: 500px;
+  min-height: 700px;
   margin-bottom: 0px;
 }
 
@@ -108,4 +108,16 @@ button:hover{
   color: white;
 }
 
+#about {
 
+  background-image: url(https://images.unsplash.com/photo-1445702934240-49eab0fa255a?q=80&fm=jpg&w=1080&fit=max&s=755da48abcc99ec798a79df141e244e5);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.marketing h1 {
+  font-size: 4.5em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
