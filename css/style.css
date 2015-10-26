@@ -6,6 +6,7 @@ body {
   padding-top: 40px;
   position: relative;
   font-family: 'PT Sans', Arial;
+  background-color: #ecf0f1;
 }
 
 .b{
@@ -35,7 +36,7 @@ img.img-circle {
   background-position: center;
   background-attachment: fixed;
   font-family: 'Open Sans', Arial;
-  height: 500px;
+  min-height: 500px;
 }
 
 #navbar {
@@ -71,7 +72,8 @@ button:hover{
 
 .marketing {
   padding-top: 80px;
-  min-height: 400px;
+  min-height: 700px;
+  padding-bottom: 80px;
 } 
 
 .img-responsive{
@@ -79,6 +81,26 @@ button:hover{
   height: auto;
 }
 
-#contact > div > div{
+#contact > div > div, .jumbotron > div > div{
   padding: 10px 5px 10px 5px;
+}
+
+#contact {
+  background-image: url(https://images.unsplash.com/photo-1445714342689-555dc8876e1b?fit=crop&fm=jpg&h=650&q=80&w=1375);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+#contact .text-muted, #portfolio .text-muted {
+  color: #CCC;
+}
+
+#portfolio {
+  background-image: url(https://images.unsplash.com/photo-1445754574409-bcd715e18017?fit=crop&fm=jpg&h=650&q=80&w=1375);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
 }
